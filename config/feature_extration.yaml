@@ -1,0 +1,14 @@
+## Feature Extraction Parameter
+lidar_topic: /velodyne_points
+N_SCAN: 16
+Horizon_SCAN: 1800
+edge_threshold: 1.0
+surf_threshold: 0.1
+odometry_surface_leaf_size: 0.4         # default: 0.4 - outdoor, 0.2 - indoor
+undistort_scan_before_extraction: false
+min_distance: 1.0
+max_distance: 100.0
+
+## Methods of data fusion
+use_corner_feature: true
+use_imu_orientation: true
